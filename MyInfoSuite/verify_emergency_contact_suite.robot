@@ -26,6 +26,8 @@ Emergency Contact Test
      Input Text    id=emgcontacts_mobilePhone    44554
      Input Text    id=emgcontacts_workPhone    7887
      Click Element    id=btnSaveEContact
+
+     #validation
      Table Should Contain    id=emgcontact_list    Satish
 
 
