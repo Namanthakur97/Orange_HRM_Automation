@@ -20,12 +20,12 @@ Emergency Contact Test
      Click Element    id=menu_pim_viewMyDetails
      Click Element    link=Emergency Contacts
      Click Element    id=btnAddContact
-     #Page Should Contain    emergency
      Input Text    id=emgcontacts_name    Satish
      Input Text    id=emgcontacts_relationship    Brother
      Input Text    id=emgcontacts_homePhone    454554
      Input Text    id=emgcontacts_mobilePhone    44554
      Input Text    id=emgcontacts_workPhone    7887
      Click Element    id=btnSaveEContact
+     Table Should Contain    id=emgcontact_list    Satish
 
 
