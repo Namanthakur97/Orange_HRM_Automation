@@ -1,6 +1,6 @@
 *** Settings ***
 
-Documentation       This suite will handle invalid credentials.
+Documentation       This suite will handle emergency contact details.
 
 ...
 

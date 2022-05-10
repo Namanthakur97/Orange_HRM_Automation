@@ -11,9 +11,10 @@ Test Setup      Launch Browser
 Test Teardown   Close Browser
 Test Template   Valid Credentials
 
+Library     DataDriver      file=../test_data/orange_data.xlsx      sheet_name=Valid Credentials
+
 *** Test Cases ***
-TC1  Admin   admin123   My Info
-TC2  Admin   admin123   Dashboard
+TC1
 
 *** Keywords ***
 Valid Credentials
